@@ -11,8 +11,8 @@ require 'db.php';
 include 'menu.php';
 
 $query = "SELECT * FROM classes";
-// $result = mysqli_query($conn, $query);
-// ?>
+$result = mysqli_query($conn, $query);
+?>
 
 <!DOCTYPE html>
 <html lang="en">
